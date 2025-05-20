@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <title>WanaJonggol Park</title>
+  </head>
+<body>
+    <!-- Bagian Navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <!-- kiri -->
+          <div class="px-4 ml-10">
+            <a
+              href="index.html/Home"
+              class="font-medium text-2xl text-lime-700 block py-6"
+              >WANAJONGGOL</a
+            >
+          </div>
+          <!-- kiri -->
+
+          <!-- kanan -->
+          <div class="flex items-center px-4">
+            <!-- Mengubah flex menjadi flex items-center -->
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <!-- Menghapus kelas absolute dan right-4 -->
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white bg-opacity-80 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="index.html#Home"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#Facilities"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Facilities</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="reservation.html"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Reservation</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#Client"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Information</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#Galeri"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Galery</a
+                  >
+                </li>
+                <li class="index.htmlgroup">
+                  <a
+                    href="index.html#Merchandise"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Merchandise</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#About"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html#Contact"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- kanan -->
+        </div>
+      </div>
+    </header>
+    <!-- Bagian Navbar -->
+
+    <!-- Bagian Reservasi Mulai -->
+    <section id="Reservasi" class="pt-20 pb-20 bg-lime-200">
+            <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+              <div class="w-full px-4 flex flex-col items-center text-center">
+                <h1 class="xl:text-6xl text-4xl text-lime-800 mb-2">Try And Take Enjoy</h1>
+                <p class="text-lime-800 font-poppins mb-8">Make Reservation Now!</p>
+        
+                <div class="flex flex-col gap-3 items-center">
+                  <div class="space-y-2">
+                    <input
+                      placeholder="Nama"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px] " style="font: size 10px;"
+                      />
+                  </div>
+                  <div class="space-y-2">
+                    <input
+                      placeholder="No Handphone"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px]" style="font: size 10px;"
+                      />
+                  </div>
+                  <div class="space-y-2">
+                    <input
+                      placeholder="Email"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px]" style="font: size 10px;"
+                      />
+                  </div>
+                  <div class="space-y-2">
+                    <input
+                      placeholder="Ammount"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px]" style="font: size 10px;"
+                      />
+                  </div>
+                  <div class="space-y-2">
+                    <input
+                      placeholder="Event Name"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px]" style="font: size 10px;"
+                      />
+                  </div>
+                  <div class="space-y-2">
+                    <input
+                      placeholder="Time"
+                      class="rounded-md w-full p-2 text-center lg:w-[800px] md:w-[600px] sm:w-[400px]" style="font: size 10px;"
+                      />
+                  </div>
+                </div>
+                <button
+                  class="bg-white text-lime-800 rounded-md mt-8 font-bold w-[150px] max-w-xs py-2 font-poppins" style="transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                  Submit
+                </button>
+              </div>
+            </div>
+    </section>
+    <!-- Bagian Reservasi Selesai -->
+
+    <!-- Bagian Footer Mulai-->
+    <footer class="bg-white dark:bg-lime-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+              <a href="index.html#Home" class="flex items-center">
+                <span
+                  class="self-center text-2xl font-normal whitespace-nowrap dark:text-white hover:text-lime-200"
+                  >WANAJONGGOL</span
+                >
+              </a>
+            </div>
+            <div
+              class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 font-poppins font-light"
+              style="font-size: 12px"
+            >
+              <div>
+                <ul class="text-lime-200 font-medium">
+                  <li class="mb-4">
+                    <a href="index.html#Facilities" class="hover:text-white">Facilities</a>
+                  </li>
+                  <li>
+                    <a href="reservation.html" class="hover:text-white">Reservation</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="text-lime-200 font-medium">
+                  <li class="mb-4">
+                    <a href="index.html#Client" class="hover:text-white">Information</a>
+                  </li>
+                  <li>
+                    <a href="index.html#Home" class="hover:text-white">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="text-lime-200 font-medium">
+                  <li class="mb-4">
+                    <a
+                      href="https://www.instagram.com/wanajonggol?igsh=MWRxeHJhcTB3MjE5eg=="
+                      class="hover:text-white"
+                      >instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://wa.me/6289609764462" class="hover:text-white"
+                      >whatsapp</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-white sm:mx-auto lg:my-8" />
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <span
+              class="text-sm text-lime-200 sm:text-center font-poppins font-light"
+              style="font-size: 12px"
+              >© 2023
+              <a href="#Home" class="hover:text-white"
+                >Wanajonggol™</a
+              >. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0"></div>
+          </div>
+        </div>
+    </footer>
+    <!-- Bagian Footer Selesai -->
+    <script src="dist/js/script.js"></script>
+</body>
+</html>

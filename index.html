@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <title>WanaJonggol Park</title>
+  </head>
+
+  <body>
+    <!-- Bagian Navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <!-- kiri -->
+          <div class="px-4 ml-10">
+            <a
+              href="#Home"
+              class="font-medium text-2xl text-lime-700 block py-6"
+              >WANAJONGGOL</a
+            >
+          </div>
+          <!-- kiri -->
+
+          <!-- kanan -->
+          <div class="flex items-center px-4">
+            <!-- Mengubah flex menjadi flex items-center -->
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <!-- Menghapus kelas absolute dan right-4 -->
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white bg-opacity-80 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#Home"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Facilities"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Facilities</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="reservation.html"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Reservation</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Client"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Information</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Galeri"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Galery</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Merchandise"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Merchandise</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#About"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Contact"
+                    class="text-base text-black py-2 px-4 flex group-hover:text-lime-500"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- kanan -->
+        </div>
+      </div>
+    </header>
+    <!-- Bagian Navbar -->
+
+    <!-- Bagian Home mulai -->
+    <section
+      id="Home"
+      class="pt-36 pb-10 bg-cover bg-center bg-fixed"
+      style="background-image: url('dist/img/gambarwana.jpg')"
+    >
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-medium text-white text-4xl lg:text-6xl mt-10 mb-2">
+              WANAJONGGOL
+            </h4>
+            <p
+              class="font-poppins font-medium text-white mb-24"
+              style="letter-spacing: 1em"
+            >
+              PARK
+            </p>
+          </div>
+        </div>
+
+        <div class="px-4 flex flex-wrap ml-10">
+          <!-- Bagian kiri -->
+          <div class="w-full mb-8 px-4 lg:w-1/2">
+            <h4 class="font-medium text-2xl text-white">
+              ENJOY YOUR <span class="block mt">MOMENT</span>
+            </h4>
+            <p
+              class="font-poppins font-light mt-4 text-white mb-8"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              reiciendis nobis laboriosam placeat consectetur at sit debitis
+              voluptate dolores enim, officiis laborum possimus qui, veritatis
+              cupiditate, quam aliquid distinctio atque.
+            </p>
+            <a
+              href="reservation.html"
+              class="font-poppins text-base font-normal text-lime-800 bg-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-70 transition duration-300 ease-in-out"
+              style="font-size: 12px"
+            >
+              Reservation Now
+            </a>
+          </div>
+
+          <!-- Bagian kanan -->
+          <div class="w-full mb-8 px-4 lg:w-1/2 flex">
+            <div class="w-1/2">
+              <div class="w-full px-4 lg:w-full lg:mt-16">
+                <p class="text-2xl mt-4 text-white mb-8">| Camp Area</p>
+              </div>
+            </div>
+
+            <div class="w-1/2">
+              <div class="w-full px-4 lg:w-full lg:mt-16">
+                <p class="text-2xl mt-4 text-white mb-8">| Event Hall</p>
+              </div>
+            </div>
+
+            <div class="w-1/2">
+              <div class="w-full px-4 lg:w-full lg:mt-16">
+                <p class="text-2xl mt-4 text-white mb-8">| Nature Cafe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Home Selesai -->
+
+    <!-- Bagian Client Mulai -->
+    <section id="Client" class="pt-16 pb-30 bg-lime-800">
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4
+              class="font-poppins text-lime-200 text-xl mt-10 tracking-widest"
+              style="font-size: 16px"
+            >
+              Our Partner
+            </h4>
+            <h2 class="font-medium text-2xl lg:text-4xl text-lime-200 mb-6">
+              Yang Bekerjasama dengan Kami
+            </h2>
+            <p
+              class="font-poppins text-white font-small"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+              molestiae eveniet illum aspernatur explicabo cum adipisci
+            </p>
+          </div>
+        </div>
+        <div class="relative overflow-hidden mb-32">
+          <div
+            class="logos-wrapper flex whitespace-nowrap justify-center items-center"
+          >
+            <div class="logos flex items-center">
+              <a href="https://bakpiajuwarasatoe.com/" class="logo mx-10 py-4">
+                <img
+                  src="dist/img/bakpia.png"
+                  alt="bakpia"
+                  class="logo-img w-40 h-36 object-contain grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100"
+                />
+              </a>
+              <a href="https://gudegyudjum.com/" class="logo mx-10 py-4">
+                <img
+                  src="dist/img/yujum.png"
+                  alt="yujum"
+                  class="logo-img w-40 h-36 object-contain grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100"
+                />
+              </a>
+              <a href="https://pakuwonmall.com/" class="logo mx-10 py-4">
+                <img
+                  src="dist/img/pakuwon.png"
+                  alt="pakuwon"
+                  class="logo-img w-40 h-36 object-contain grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100"
+                />
+              </a>
+              <a href="https://plaza-ambarrukmo.co.id/" class="logo mx-10 py-4">
+                <img
+                  src="dist/img/amplaz.png"
+                  alt="amplaz"
+                  class="logo-img w-40 h-36 object-contain grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Client Selesai -->
+
+    <!-- Bagian Fasilitas Mulai -->
+    <section id="Facilities" class="pt-20 pb-16">
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="w-full px-4">
+          <div class="px-4 flex flex-wrap ml-10">
+            <div class="w-full px-4 lg:w-1/2 text-4xl mb-5">
+              <h4 class="font-medium">
+                OUR <span class="block mt">FACILITIES</span>
+              </h4>
+            </div>
+
+            <div class="w-ful px-4 lg:w-1/2 lg:mt-2">
+              <p
+                class="font-poppins lg:text-right font-light mt-0 text-lime-800 mb-20"
+                style="font-size: 12px"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis reiciendis nobis laboriosam placeat consectetur at sit
+                debitis voluptate dolores enim, officiis laborum possimus qui,
+                veritatis cupiditate, quam aliquid distinctio atque.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap ml-10">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div
+                class="flex flex-wrap"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <div
+                  class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-lg transition duration-300 ease-in-out"
+                  style="transition: transform 0.3s ease-in-out"
+                >
+                  <img
+                    src="dist/img/camp.jpg"
+                    alt="Camp Area"
+                    class="w-full"
+                    style="transition: transform 0.3s ease-in-out"
+                    onmouseover="this.style.transform='scale(1.1)'"
+                    onmouseout="this.style.transform='scale(1)'"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-4 text-2xl text-lime-900">Camp Area</h2>
+                  <p
+                    class="font-poppins font-light mt-0 text-black mb-20"
+                    style="font-size: 12px"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis reiciendis nobis laboriosam placeat consectetur at
+                    sit debitis voluptate dolores enim, officiis laborum
+                    possimus qui, veritatis cupiditate, quam aliquid distinctio
+                    atque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div
+                class="flex flex-wrap"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <div
+                  class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-lg transition duration-300 ease-in-out"
+                  style="transition: transform 0.3s ease-in-out"
+                >
+                  <img
+                    src="dist/img/rename.jpg"
+                    alt="Event Hall"
+                    class="w-full"
+                    style="transition: transform 0.3s ease-in-out"
+                    onmouseover="this.style.transform='scale(1.1)'"
+                    onmouseout="this.style.transform='scale(1)'"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-4 text-2xl text-lime-900">Event Hall</h2>
+                  <p
+                    class="font-poppins font-light mt-0 text-black mb-20"
+                    style="font-size: 12px"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis reiciendis nobis laboriosam placeat consectetur at
+                    sit debitis voluptate dolores enim, officiis laborum
+                    possimus qui, veritatis cupiditate, quam aliquid distinctio
+                    atque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div
+                class="flex flex-wrap"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <div
+                  class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-lg transition duration-300 ease-in-out"
+                  style="transition: transform 0.3s ease-in-out"
+                >
+                  <img
+                    src="dist/img/hall.jpg"
+                    alt="Nature Cafe"
+                    class="w-full"
+                    style="transition: transform 0.3s ease-in-out"
+                    onmouseover="this.style.transform='scale(1.1)'"
+                    onmouseout="this.style.transform='scale(1)'"
+                  />
+                </div>
+                <div>
+                  <h2 class="mb-4 text-2xl text-lime-900">Nature Cafe</h2>
+                  <p
+                    class="font-poppins font-light mt-0 text-black mb-20"
+                    style="font-size: 12px"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis reiciendis nobis laboriosam placeat consectetur at
+                    sit debitis voluptate dolores enim, officiis laborum
+                    possimus qui, veritatis cupiditate, quam aliquid distinctio
+                    atque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Fasilitas Selesai -->
+
+    <!-- Bagian Galeri Mulai -->
+    <section id="Galeri" class="pt-20 pb-20 bg-lime-800">
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="w-full px-4 text-center">
+          <h1 class="lg:text-6xl sm:text-4xl text-white mb-2">Wanna Gallery</h1>
+          <p class="font-poppins text-lime-200 mb-12" style="font: size 8px">
+            Our beautiful moments captured
+          </p>
+        </div>
+        <div
+          class="gallery flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
+        >
+          <img
+            src="dist/img/haha.jpg"
+            alt="Gallery Image 2"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/rara.jpg"
+            alt="Gallery Image 1"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/sasa.jpg"
+            alt="Gallery Image 3"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/gambarwana.jpg"
+            alt="Gallery Image 4"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/dada.jpg"
+            alt="Gallery Image 5"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/rename.jpg"
+            alt="Gallery Image 6"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/haha.jpg"
+            alt="Gallery Image 2"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/rara.jpg"
+            alt="Gallery Image 1"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/sasa.jpg"
+            alt="Gallery Image 3"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/gambarwana.jpg"
+            alt="Gallery Image 4"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/dada.jpg"
+            alt="Gallery Image 5"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+          <img
+            src="dist/img/rename.jpg"
+            alt="Gallery Image 6"
+            class="rounded shadow-lg object-cover"
+            style="
+              width: 400px;
+              height: 300px;
+              transition: transform 0.3s ease-in-out;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Galeri Selesai -->
+
+    <!-- Bagian Merchandise Mulai -->
+    <section id="Merchandise" class="pt-20 pb-20 bg-white">
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="w-full px-4 flex flex-col items-center text-center">
+          <h1 class="xl:text-6xl text-4xl text-lime-800 mb-2">
+            Jogja Merchandise
+          </h1>
+          <p class="text-lime-800 font-poppins mb-8">
+            you can buy this at WanaJonggol park
+          </p>
+        </div>
+
+        <div class="flex flex-wrap ml-10">
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 -4 lg:w-1/2 xl:w-1/4">
+            <div
+              class="flex flex-wrap"
+              style="transition: transform 0.3s ease-in-out"
+            >
+              <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden mb-4 hover:shadow-lg transition duration-300 ease-in-out"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <img
+                  src="dist/img/camp.jpg"
+                  alt="Camp Area"
+                  class="w-full"
+                  style="
+                    width: 270px;
+                    height: 300px;
+                    transition: transform 0.3s ease-in-out;
+                  "
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+              <div>
+                <h2 class="mb-2 text-2xl text-lime-900">Rp.50.999</h2>
+                <p
+                  class="font-poppins font-light mt-0 text-black mb-20"
+                  style="font-size: 12px"
+                >
+                  Nama Barang
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4">
+            <div
+              class="flex flex-wrap"
+              style="transition: transform 0.3s ease-in-out"
+            >
+              <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden mb-4 hover:shadow-lg transition duration-300 ease-in-out"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <img
+                  src="dist/img/rename.jpg"
+                  alt="Event Hall"
+                  class="w-full"
+                  style="
+                    width: 270px;
+                    height: 300px;
+                    transition: transform 0.3s ease-in-out;
+                  "
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+              <div>
+                <h2 class="mb-2 text-2xl text-lime-900">Rp.25.999</h2>
+                <p
+                  class="font-poppins font-light mt-0 text-black mb-20"
+                  style="font-size: 12px"
+                >
+                  Nama Barang
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4">
+            <div
+              class="flex flex-wrap"
+              style="transition: transform 0.3s ease-in-out"
+            >
+              <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden mb-4 hover:shadow-lg transition duration-300 ease-in-out"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <img
+                  src="dist/img/hall.jpg"
+                  alt="Nature Cafe"
+                  class="w-full"
+                  style="
+                    width: 270px;
+                    height: 300px;
+                    transition: transform 0.3s ease-in-out;
+                  "
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+              <div>
+                <h2 class="mb-2 text-2xl text-lime-900">Rp.99.999</h2>
+                <p
+                  class="font-poppins font-light mt-0 text-black mb-20"
+                  style="font-size: 12px"
+                >
+                  Nama Barang
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4">
+            <div
+              class="flex flex-wrap"
+              style="transition: transform 0.3s ease-in-out"
+            >
+              <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden mb-4 hover:shadow-lg transition duration-300 ease-in-out"
+                style="transition: transform 0.3s ease-in-out"
+              >
+                <img
+                  src="dist/img/hall.jpg"
+                  alt="Nature Cafe"
+                  class="w-full"
+                  style="
+                    width: 270px;
+                    height: 300px;
+                    transition: transform 0.3s ease-in-out;
+                  "
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                />
+              </div>
+              <div>
+                <h2 class="mb-2 text-2xl text-lime-900">Rp.99.999</h2>
+                <p
+                  class="font-poppins font-light mt-0 text-black mb-20"
+                  style="font-size: 12px"
+                >
+                  Nama Barang
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4">
+          <div class="mx-auto text-center">
+            <h4
+              class="font-poppins text-lime-950 text-xl mt-10 tracking-widest"
+              style="font-size: 16px"
+            >
+              Our Partner
+            </h4>
+            <p
+              class="font-poppins text-lime-800 font-small"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              hic earum architecto quasi dolor minima provident officiis
+              corrupti maiores velit consequuntur illum odio labore eligendi
+              mollitia dicta alias, autem est? Dolorem numquam ratione non,
+              voluptatum repudiandae maiores eveniet neque expedita consectetur
+              odit, error eaque? Magni excepturi enim labore rem mollitia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Merchandise Selesai -->
+
+    <!-- Bagian About mulai -->
+    <section id="About" class="pt-20 pb-10 bg-lime-200">
+      <div class="container mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="px-4 flex flex-wrap ml-10">
+          <!-- Bagian kiri -->
+          <div class="w-full mb-12 px-4">
+            <h4 class="font-medium text-6xl">About WanaJonggol</h4>
+          </div>
+
+          <div class="w-full mb-8 px-4 lg:w-1/2">
+            <iframe
+              class="rounded-lg shadow-lg object-cover"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/OlXP_jeAJFc?si=bwiNAw4AB7pFXwMg&amp;start=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="w-full mb-8 px-4 ml-8 lg:w-1/2">
+            <h4 class="font-medium text-2xl">Visi</h4>
+            <p
+              class="font-poppins font-light mt-4 text-lime-800 mb-8"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              reiciendis nobis laboriosam placeat consectetur at sit debitis
+              voluptate dolores enim, officiis laborum possimus qui, veritatis
+              cupiditate, quam aliquid distinctio atque.
+            </p>
+            <h4 class="font-medium text-2xl">Misi</h4>
+            <p
+              class="font-poppins font-light mt-4 text-lime-800 mb-8"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, amet
+              corrupti dolore voluptates ipsam consequatur inventore commodi
+              obcaecati harum eaque quae quidem quas blanditiis in, quasi
+              laborum debitis animi cum architecto earum. Quisquam veniam
+              doloribus est, dolorum aliquid at eveniet.
+            </p>
+          </div>
+        </div>
+
+        <div class="px-4 flex flex-wrap ml-10 mt-10">
+          <div class="w-full mb-8 px-4 lg:w-1/2">
+            <iframe
+              class="rounded-lg shadow-lg object-cover"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.2142804387768!2d110.42819267410086!3d-7.660095775798079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5dd74734722b%3A0x813de9c190f2b9cc!2sJonggol!5e0!3m2!1sid!2sid!4v1718687977714!5m2!1sid!2sid"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="w-full mb-8 px-4 ml-8 lg:w-1/2">
+            <h4 class="font-medium text-2xl">Find Us in Maps</h4>
+            <p
+              class="font-poppins font-light mt-4 text-lime-800 mb-8"
+              style="font-size: 12px"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              reiciendis nobis laboriosam placeat consectetur at sit debitis
+              voluptate dolores enim, officiis laborum possimus qui, veritatis
+              cupiditate, quam aliquid distinctio atque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian About Selesai -->
+
+    <!-- Bagian Footer Mulai-->
+    <footer class="bg-white dark:bg-lime-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="#Home" class="flex items-center">
+              <span
+                class="self-center text-2xl font-normal whitespace-nowrap dark:text-white hover:text-lime-200"
+                >WANAJONGGOL</span
+              >
+            </a>
+          </div>
+          <div
+            class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 font-poppins font-light"
+            style="font-size: 12px"
+          >
+            <div>
+              <ul class="text-lime-200 font-medium">
+                <li class="mb-4">
+                  <a href="#Facilities" class="hover:text-white">Facilities</a>
+                </li>
+                <li>
+                  <a href="reservation.html" class="hover:text-white"
+                    >Reservation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-lime-200 font-medium">
+                <li class="mb-4">
+                  <a href="#Client" class="hover:text-white">Information</a>
+                </li>
+                <li>
+                  <a href="#Home" class="hover:text-white">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-lime-200 font-medium">
+                <li class="mb-4">
+                  <a
+                    href="https://www.instagram.com/wanajonggol?igsh=MWRxeHJhcTB3MjE5eg=="
+                    class="hover:text-white"
+                    >instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/6289609764462" class="hover:text-white"
+                    >whatsapp</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-white sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span
+            class="text-sm text-lime-200 sm:text-center font-poppins font-light"
+            style="font-size: 12px"
+            >© 2023 <a href="#Home" class="hover:text-white">Wanajonggol™</a>.
+            All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bagian Footer Selesai -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
